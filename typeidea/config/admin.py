@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Link, SideBar
+from typeidea.config.models import Link, SideBar
 
 
 @admin.register(Link)
