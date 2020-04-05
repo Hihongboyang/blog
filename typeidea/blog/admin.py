@@ -2,15 +2,15 @@ from django.contrib.admin.models import LogEntry
 from django.contrib import admin
 from django.urls import reverse
 from django.utils.html import format_html
-from typeidea.blog.models import Post, Category, Tag
-from typeidea.blog.adminforms import PostAdminForm
-from typeidea.typeidea.custom_site import custom_site
-from typeidea.typeidea.base_admin import BaseOwnerAdmin
+from .models import Post, Category, Tag
+from .adminforms import PostAdminForm
+from typeidea.custom_site import custom_site
+from typeidea.base_admin import BaseOwnerAdmin
 
 
-class PostInline(admin.TabularInline):
+class PostInline(admin.TabularInline):  # StackedInline样式不同
     fields = ('title', 'desc')
-    extra = 1
+    extra = 1  # 控制额外多几个
     model = Post
 
 
@@ -25,6 +25,7 @@ class CategoryAdmin(BaseOwnerAdmin):
     #     return super(CategoryAdmin, self).save_model(request, obj, form, change)
 
     def post_count(self, obj):
+        """将方法添加到list_display中，以实现调用"""
         return obj.post_set.count()
     post_count.short_description = "文章数量"
 
@@ -68,7 +69,7 @@ class PostAdmin(BaseOwnerAdmin):
 
     actions_on_top = True
     actions_on_bottom = True
-    save_on_top = True
+    save_on_top = False
 
     exclude = ('owner', )
     #

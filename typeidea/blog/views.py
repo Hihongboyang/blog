@@ -1,6 +1,6 @@
 from django.shortcuts import render
-from typeidea.blog.models import Post, Tag, Category
-from typeidea.config.models import SideBar
+from blog.models import Post, Tag, Category
+from config.models import SideBar
 
 
 def post_list(request, category_id=None, tag_id=None):

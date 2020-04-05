@@ -16,9 +16,9 @@ Including another URLconf
 from django.urls import re_path, path
 # from django.conf.urls import url
 from django.contrib import admin
-from typeidea.blog.views import post_list, post_detail, login
-from typeidea.config.views import links
-from typeidea.typeidea.custom_site import custom_site
+from blog.views import post_list, post_detail, login
+from config.views import links
+from typeidea.custom_site import custom_site
 
 
 urlpatterns = [
