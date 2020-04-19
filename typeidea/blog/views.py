@@ -83,6 +83,13 @@ class SearchView(IndexView):
         return queryset.filter(Q(title__icontains=keyword) | Q(desc__icontains=keyword))
 
 
+class AuthorView(IndexView):
+    def get_queryset(self):
+        queryset = super().get_queryset()
+        author_id = self.kwargs.get('owner_id')
+        return queryset.filter(owner_id=author_id)
+
+
 # from django.shortcuts import render
 # from blog.models import Post, Tag, Category
 # from config.models import SideBar

@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b46fdc0-347c-49dd-8b5c-16303135bee1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/typeidea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/typeidea.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typeidea/blog/migrations/0002_auto_20200213_1608.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/typeidea/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/blog/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/blog/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/blog/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/typeidea/typeidea/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/typeidea/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,31 +35,39 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/typeidea/typeidea/urls.py">
+        <entry file="file://$PROJECT_DIR$/typeidea/blog/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="669">
-              <caret line="50" column="44" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="44" />
+            <state relative-caret-position="1015">
+              <caret line="35" column="34" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="34" />
               <folding>
-                <element signature="e#1412#1449#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/blog/list.html">
+        <entry file="file://$PROJECT_DIR$/typeidea/blog/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+            <state relative-caret-position="-1566">
+              <caret line="24" column="82" lean-forward="true" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typeidea/comment/views.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/blog/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+            <state relative-caret-position="464">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -68,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/typeidea/typeidea/base_admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="377">
+              <caret line="13" column="24" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -96,10 +103,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/typeidea/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1916">
-              <caret line="85" column="37" lean-forward="true" selection-start-line="85" selection-start-column="37" selection-end-line="85" selection-end-column="37" />
+            <state relative-caret-position="-1798">
+              <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
               <folding>
-                <element signature="e#0#4#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/typeidea/config/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="116">
+              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -159,18 +166,17 @@
         <option value="$PROJECT_DIR$/typeidea/blog/admin.py" />
         <option value="$PROJECT_DIR$/typeidea/typeidea/settings/base.py" />
         <option value="$PROJECT_DIR$/typeidea/typeidea/themes/default/templates/blog/list.html" />
-        <option value="$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/blog/list.html" />
-        <option value="$PROJECT_DIR$/typeidea/blog/views.py" />
         <option value="$PROJECT_DIR$/typeidea/typeidea/urls.py" />
+        <option value="$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/blog/list.html" />
         <option value="$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/blog/base.html" />
+        <option value="$PROJECT_DIR$/typeidea/blog/views.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="393" />
-    <option name="y" value="103" />
-    <option name="width" value="1400" />
-    <option name="height" value="957" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -178,6 +184,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,138 +197,10 @@
               <item name="typeidea" type="462c0819:PsiDirectoryNode" />
               <item name="typeidea" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="comment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="typeidea" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -412,17 +291,23 @@
       <option name="project" value="LOCAL" />
       <updated>1586148916087</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="添加搜索功能">
+      <created>1586149938368</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586149938368</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="43005000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14857745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30128205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -478,7 +363,8 @@
     <MESSAGE value="完成基本功能" />
     <MESSAGE value="使用前端的框架" />
     <MESSAGE value="改为基于类的view-base" />
-    <option name="LAST_COMMIT_MESSAGE" value="改为基于类的view-base" />
+    <MESSAGE value="添加搜索功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加搜索功能" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="setValue">
@@ -625,20 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/blog/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1421">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/typeidea/settings/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1682">
-          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -656,16 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="16" column="71" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/typeidea/typeidea/themes/default/templates/blog/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
@@ -677,16 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="9" column="24" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/comment/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/config/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -714,17 +566,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/typeidea/custom_site.py">
+    <entry file="file://$PROJECT_DIR$/typeidea/blog/migrations/0002_auto_20200213_1608.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="232">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/comment/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230" />
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/Lib/site-packages/django/views/generic/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/typeidea/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1392">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/blog/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/typeidea/settings/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1682">
+          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/blog/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/typeidea/typeidea/base_admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="377">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -734,36 +626,49 @@
     <entry file="file://$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/config/blocks/sidebar_comments.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/blog/list.html">
+    <entry file="file://$PROJECT_DIR$/typeidea/typeidea/custom_site.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        <state relative-caret-position="290">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/blog/base.html">
+    <entry file="file://$PROJECT_DIR$/typeidea/blog/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typeidea/typeidea/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="50" column="44" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="44" />
+        <state relative-caret-position="-1566">
+          <caret line="24" column="82" lean-forward="true" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
           <folding>
-            <element signature="e#1412#1449#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/comment/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/config/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typeidea/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1015">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/typeidea/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1916">
-          <caret line="85" column="37" lean-forward="true" selection-start-line="85" selection-start-column="37" selection-end-line="85" selection-end-column="37" />
+        <state relative-caret-position="-1798">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
           <folding>
-            <element signature="e#0#4#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>

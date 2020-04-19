@@ -35,7 +35,7 @@ Including another URLconf
 from django.urls import re_path, path
 # from django.conf.urls import url
 from django.contrib import admin
-from blog.views import IndexView, CategoryView, TagView, PostDetailView, SearchView, login
+from blog.views import IndexView, CategoryView, TagView, PostDetailView, SearchView, AuthorView, login
 from config.views import links
 from .custom_site import custom_site
 
@@ -48,5 +48,6 @@ urlpatterns = [
     re_path(r'^links/$', links, name='links'),
     re_path(r'^super_admin/', admin.site.urls, name='super-admin'),
     re_path(r'^admin/', custom_site.urls, name='admin'),
-    re_path(r'^search/$', SearchView.as_view(), name='search')
+    re_path(r'^search/$', SearchView.as_view(), name='search'),
+    re_path(r'^author/(?P<owner_id>\d+)/$', AuthorView.as_view(), name='author'),
 ]
