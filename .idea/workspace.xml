@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b46fdc0-347c-49dd-8b5c-16303135bee1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/config/links.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/063ab7aa-7d63-4d01-9ada-d17ee3b1204a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/063ab7aa-7d63-4d01-9ada-d17ee3b1204a.xml" afterDir="false" />
+    <list default="true" id="7b46fdc0-347c-49dd-8b5c-16303135bee1" name="Default Changelist" comment="添加评论的功能">
+      <change afterPath="$PROJECT_DIR$/typeidea/comment/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typeidea/comment/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typeidea/comment/templatetags/comment_block.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/comment/block.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/comment/result.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/config/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/config/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/blog/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeidea/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeidea/comment/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/comment/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeidea/comment/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/comment/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/blog/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/blog/detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/config/blocks/sidebar_comments.html" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/config/blocks/sidebar_comments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/config/blocks/sidebar_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/typeidea/themes/bootstrap/templates/config/blocks/sidebar_posts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/typeidea/typeidea/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeidea/typeidea/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +100,7 @@
       <workItem from="1585828902602" duration="19000" />
       <workItem from="1585828942813" duration="3000" />
       <workItem from="1585828977687" duration="3247000" />
-      <workItem from="1587344458704" duration="7324000" />
+      <workItem from="1587344458704" duration="17933000" />
     </task>
     <task id="LOCAL-00001" summary="增加后台管理，区分内容的管理和用户的管理">
       <created>1581557873060</created>
@@ -141,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586149938368</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="添加友链的功能">
+      <created>1587352742612</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587352742612</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,9 +163,14 @@
     <MESSAGE value="使用前端的框架" />
     <MESSAGE value="改为基于类的view-base" />
     <MESSAGE value="添加搜索功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加搜索功能" />
+    <MESSAGE value="添加友链的功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加友链的功能" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="560" y="111" key="CommitChangelistDialog2" timestamp="1587369006369">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587369006369" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1587350072516">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
