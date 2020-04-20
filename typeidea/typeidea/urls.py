@@ -36,7 +36,7 @@ from django.urls import re_path, path
 # from django.conf.urls import url
 from django.contrib import admin
 from blog.views import IndexView, CategoryView, TagView, PostDetailView, SearchView, AuthorView, login
-from config.views import links
+from config.views import LinkListView
 from .custom_site import custom_site
 
 urlpatterns = [
@@ -45,7 +45,7 @@ urlpatterns = [
     re_path(r'^category/(?P<category_id>\d+)/$', CategoryView.as_view(), name='category-list'),
     re_path(r'^tag/(?P<tag_id>\d+)/$', TagView.as_view(), name='tag-list'),
     re_path(r'^post/(?P<post_id>\d+).html$', PostDetailView.as_view(), name='post-detail'),
-    re_path(r'^links/$', links, name='links'),
+    re_path(r'^links/$', LinkListView.as_view(), name='links'),
     re_path(r'^super_admin/', admin.site.urls, name='super-admin'),
     re_path(r'^admin/', custom_site.urls, name='admin'),
     re_path(r'^search/$', SearchView.as_view(), name='search'),
