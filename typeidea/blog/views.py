@@ -8,7 +8,9 @@ from .models import Post, Category, Tag
 
 
 class CommonViewMixin:
-    def get_context_data(self, **kwargs):
+    def get_context_data(self, **kwargs):  
+        # 这里相当于实现了一个子类的方法，但是这个mixin不能直接使用的，
+        # 这里需要如下的indexView继承他，相当于给indexView添加了这个方法
         context = super().get_context_data(**kwargs)
         context.update({
             'sidebars': SideBar.get_all(),
@@ -26,7 +28,7 @@ class IndexView(CommonViewMixin, ListView):
 
 class CategoryView(IndexView):
     def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
+        context = super().get_context_data(**kwargs)  # 获取基础的数据，再进行更新
         category_id = self.kwargs.get('category_id')
         category = get_object_or_404(Category, pk=category_id)
         context.update({
@@ -37,7 +39,7 @@ class CategoryView(IndexView):
     def get_queryset(self):
         """重写queryset，根据分类过滤"""
         querset = super().get_queryset()
-        category_id = self.kwargs.get('category_id')
+        category_id = self.kwargs.get('category_id') 
         return querset.filter(category_id=category_id)
 
 
@@ -61,7 +63,7 @@ class TagView(IndexView):
 class PostDetailView(CommonViewMixin, DetailView):
     queryset = Post.latest_posts()
     template_name = 'blog/detail.html'
-    context_object_name = 'post'
+    context_object_name = 'post_list'
     pk_url_kwarg = 'post_id'
 
     # def get_context_data(self, **kwargs):
